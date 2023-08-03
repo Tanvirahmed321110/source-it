@@ -107,4 +107,36 @@
     column-gap:20%;
     row-gap: 80px;
 }
+
+
+#footer::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(img/animation.avif);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position-y:-120px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    animation: footeranimation 4s linear 5s infinite;
+}
+@keyframes footeranimation {
+    0%{
+      opacity: 1;
+    }    
+    60%{
+      opacity: 1;background: linear-gradient(rgba(0, 0, 255, 0.589),rgba(0, 0, 255, 0.767));
+    }
+    80%{
+        opacity:1;
+    }
+    90%{
+       opacity: 1;background: linear-gradient(rgba(136, 230, 13, 0.938),rgba(0, 0, 255, 0.767));
+      }
+    100%{
+      opacity: 1;
+    }
+  }
 }
