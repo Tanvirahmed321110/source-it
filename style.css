@@ -460,7 +460,7 @@ li{
         transform: scale(1);
         background: linear-gradient(rgb(197, 193, 193),maroon);
     }
-    20%{transform: scale(0);
+    20%{
         background: linear-gradient(rgb(243, 228, 228),purple);
         box-shadow: 0 2px 5px black;  
     }
