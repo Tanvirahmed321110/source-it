@@ -474,7 +474,6 @@ li{
         background: linear-gradient(rgb(79, 79, 146),rgb(143, 133, 114));
         box-shadow: 0 2px 5px black;   
     }
-    
 }
 .footer-container h4:hover::after{
     width: 100%;
